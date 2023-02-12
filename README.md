@@ -3,7 +3,7 @@
 
 - **⚠仅适用于部分有一定基础的人，不建议0基础者使用**
 
-1. 使用[iMoo Toolkit](https://github.com/ReX-iMoo-Team/iMoo-Toolkit)安装[magisk](https://github.com/topjohnwu/Magisk/releases/tag/v23.0)和[czwg](https://github.com/ReX-iMoo-Team/imoo_Z6dfb_root/tree/main/apks/czwg_145984.apk)到手表上。
+1. 使用[iMoo Toolkit](https://github.com/ReX-iMoo-Team/iMoo-Toolkit)安装[magisk](https://github.com/topjohnwu/Magisk/releases/tag/v23.0)到手表上。
    - **把充电特效改成流光**
    - 命令行输入: 
        ```sh
