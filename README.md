@@ -14,7 +14,7 @@
    - **不要选择保留avb。**
 4. 打开找到刚刚导入的`boot.bin`，**magisk**会开始修补**Boot**文件。
    - 显示**All done**就是成功。
-5. 接下来到手表下载目录`/sdcard/Download/`，将`boot.img`上传到电脑上
+5. 接下来到手表下载目录`/sdcard/Download/`，将`boot.img`上传到电脑上。
 6. 使用**QFIl**进入**9008**，将`boot.img`刷进**recovery**里面，`misc.bin`([下载](https://github.com/ReX-iMoo-Team/imoo_Z6dfb_root/blob/main/misc/misc.bin))刷进**misc**里，确定刷完依次退出刷完之后就**root**成功了。
 
 - **发现者:[早茶光不是找茬光](https://space.bilibili.com/1268760897)**
