@@ -10,15 +10,15 @@
        adb shell am density 200
        ```
 2. 在**QFIl**把**Boot**提取出来把文件导到手表的内部存储根目录`/sdcard/`。
-   1.启动QIFL工具，确保手表进入9008模式后，选择flat build
-   2.点击Select Programmer选项，选择对应的文件。注意，此时的programmer path的版本应该和手表中的版本一致
-   3.点击菜单中的tool，选择Partition Manager选项
-   4.按照提示，点击OK
-   5.弹出窗口“Parttition Manager”，这里可以看到每个分区的起始位置，从而对分区进行管理；
-   6.选择需要的镜像的分区[boot]，点击右键，选择Manager Partition Data；
-   7.弹出“Raw Date Manager”窗口，选择Read Data；
-   8.软件开始读取userdata分区
-   9.读取分区完成，在对应的路径即可找到导出的boot分区的bin文件，具体导出路径见status下输出的文件路径
+   - 1.启动QIFL工具，确保手表进入9008模式后，选择flat build
+   - 2.点击Select Programmer选项，选择对应的文件。注意，此时的programmer path的版本应该和手表中的版本一致
+   - 3.点击菜单中的tool，选择Partition Manager选项
+   - 4.按照提示，点击OK
+   - 5.弹出窗口“Parttition Manager”，这里可以看到每个分区的起始位置，从而对分区进行管理；
+   - 6.选择需要的镜像的分区[boot]，点击右键，选择Manager Partition Data；
+   - 7.弹出“Raw Date Manager”窗口，选择Read Data；
+   - 8.软件开始读取userdata分区
+   - 9.读取分区完成，在对应的路径即可找到导出的boot分区的bin文件，具体导出路径见status下输出的文件路径
 3. 打开**magisk**点击安装，选择直接选择并修补刚才传入的boot.bin文件。
    - **不要选择保留avb。**
 4. 打开找到刚刚导入的`boot.bin`，**magisk**会开始修补**Boot**文件。
