@@ -19,7 +19,7 @@
    - 7.弹出`Raw Date Manager`窗口，选择**Read Data**；
    - 8.软件开始读取`userdata`分区；
    - 9.读取分区完成，在对应的路径即可找到导出的`boot.bin`文件，具体导出路径见`status`下输出的文件路径。
-3. 打开**magisk**点击安装，选择直接选择并修补刚才传入的boot.bin文件。
+3. 打开**magisk**点击安装，选择直接选择并修补刚才传入的`boot.bin`文件。
    - **不要选择保留avb。**
 4. 打开找到刚刚导入的`boot.bin`，**magisk**会开始修补**Boot**文件。
    - 显示**All done**就是成功。
