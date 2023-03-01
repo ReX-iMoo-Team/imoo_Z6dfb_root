@@ -10,7 +10,7 @@
        adb shell am density 200
        ```
 2. 在**QFIl**把**Boot**提取出来把文件导到手表的内部存储根目录`/sdcard/`。
-   - 1.启动**QIFL**工具，确保手表进入9008模式后，选择`flat build`；
+   - 1.启动**QFIL**工具，确保手表进入9008模式后，选择`flat build`；
    - 2.点击`Select Programmer`选项，选择对应的文件。注意，此时的**programmer path**的版本应该和手表中的版本一致；
    - 3.点击菜单中的`tool`，选择`Partition Manager`选项；
    - 4.按照提示，点击**OK**；
