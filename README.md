@@ -9,7 +9,7 @@
        ```sh
        adb shell am density 200
        ```
-2. 在**QFIl**把**Boot**提取出来把文件导到手表的内部存储根目录`/sdcard/`。
+2. 在**QFIL**把**Boot**提取出来把文件导到手表的内部存储根目录`/sdcard/`。
    - 1.启动**QFIL**工具，确保手表进入9008模式后，选择`flat build`；
    - 2.点击`Select Programmer`选项，选择对应的文件。注意，此时的**programmer path**的版本应该和手表中的版本一致；
    - 3.点击菜单中的`tool`，选择`Partition Manager`选项；
@@ -24,6 +24,6 @@
 4. 打开找到刚刚导入的`boot.bin`，**magisk**会开始修补**Boot**文件。
    - 显示**All done**就是成功。
 5. 接下来到手表下载目录`/sdcard/Download/`，将`boot.img`上传到电脑上。
-6. 使用**QFIl**进入**9008**，将`boot.img`刷进**recovery**里面，`misc.bin`([下载](https://github.com/ReX-iMoo-Team/imoo_Z6dfb_root/blob/main/misc/misc.bin))刷进**misc**里，确定刷完依次退出刷完之后就**root**成功了。
+6. 使用**QFIL**进入**9008**，将`boot.img`刷进**recovery**里面，`misc.bin`([下载](https://github.com/ReX-iMoo-Team/imoo_Z6dfb_root/blob/main/misc/misc.bin))刷进**misc**里，确定刷完依次退出刷完之后就**root**成功了。
 
 - **发现者:[早茶光不是找茬光](https://space.bilibili.com/1268760897)**
